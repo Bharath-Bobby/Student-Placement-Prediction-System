@@ -2,13 +2,9 @@
 
 A professional, end-to-end machine learning web application designed to predict the likelihood of student placement based on resume content. This tool is particularly useful for academic institutions and students aiming to assess employability and receive actionable feedback for improvement.
 
----
-
 ## Overview
 
 This project allows users to upload resumes in PDF format, extract key information using NLP techniques, and predict placement chances using a trained ML model. Based on the extracted features, it also provides personalized recommendations to improve a candidate's job prospects.
-
----
 
 ## Key Features
 
@@ -17,8 +13,6 @@ This project allows users to upload resumes in PDF format, extract key informati
 * Placement Prediction using a trained `RandomForestClassifier`
 * Recommendation Engine to suggest improvements
 * Web Interface powered by `Flask`
-
----
 
 ## Project Structure
 
@@ -34,8 +28,6 @@ This project allows users to upload resumes in PDF format, extract key informati
 ├── uploads/                    # Temporary storage for uploaded resumes
 ├── README.md                   # Project documentation
 ```
-
----
 
 ## Setup Instructions
 
@@ -66,8 +58,6 @@ python app.py
 
 Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000) to access the app.
 
----
-
 ## ML Model Details
 
 * Model Used: `RandomForestClassifier`
@@ -75,8 +65,6 @@ Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000) to access the app.
 * Features: CGPA, skills, projects, internships, certifications
 * Preprocessing: Label encoding, imputation, scaling
 * Target Variable: Placement Status (Placed / Not Placed)
-
----
 
 ## Recommendations Module
 
@@ -87,8 +75,6 @@ Based on deficiencies found in resumes, the system provides improvement suggesti
 * Gain relevant certifications or training
 * Boost extracurricular participation or leadership
 
----
-
 ## Future Enhancements
 
 * Support for `.docx` resume format
@@ -96,19 +82,13 @@ Based on deficiencies found in resumes, the system provides improvement suggesti
 * Enhanced frontend experience with animations and feedback
 * PDF report generation for placement readiness score
 
----
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
----
-
 ## License
 
 Licensed under the [MIT License](LICENSE).
-
----
 
 ## Author
 
