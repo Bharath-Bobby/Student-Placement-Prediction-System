@@ -23,7 +23,7 @@ This project allows users to upload resumes in PDF format, extract key informati
 ## Project Structure
 
 ```
-├── backend.py                  # Flask backend logic
+├── app.py                  # Flask backend logic
 ├── parse_resume.py             # Resume parsing and ML processing
 ├── placementdata.csv           # Training dataset for the ML model
 ├── templates/
@@ -61,7 +61,7 @@ pip install Flask Werkzeug PyMuPDF pandas numpy scikit-learn
 ### Run the Application
 
 ```bash
-python backend.py
+python app.py
 ```
 
 Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000) to access the app.
