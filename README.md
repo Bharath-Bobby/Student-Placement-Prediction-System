@@ -17,7 +17,7 @@ This project allows users to upload resumes in PDF format, extract key informati
 ## Project Structure
 
 ```
-├── app.py                  # Flask backend logic
+├── app.py                      # Flask backend logic
 ├── parse_resume.py             # Resume parsing and ML processing
 ├── placementdata.csv           # Training dataset for the ML model
 ├── templates/
@@ -92,5 +92,5 @@ Licensed under the [MIT License](LICENSE).
 
 ## Author
 
-**Bharath Harihara Sudhan**
+**Bharath Harihara Sudhan**. 
 GitHub: [@Bharath-Bobby](https://github.com/Bharath-Bobby)
