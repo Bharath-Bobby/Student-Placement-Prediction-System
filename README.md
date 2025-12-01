@@ -92,5 +92,5 @@ Licensed under the [MIT License](LICENSE).
 
 ## Author
 
-**Bharath Harihara Sudhan**. 
+**Bharath Harihara Sudhan** -  
 GitHub: [@Bharath-Bobby](https://github.com/Bharath-Bobby)
